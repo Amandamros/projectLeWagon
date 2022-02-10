@@ -1,0 +1,145 @@
+body {
+    font-family: Overpass;
+    color: #404042;
+    font-size: 18px;
+    margin: 0;
+}
+
+h1, h2, h3 {
+    font-family: Chivo;
+}
+
+.banner h1 {
+    color: white;
+    font-size: 45px;
+    margin: 0;
+}
+
+.banner p {
+    color: white;
+    font-size: 24px;
+}
+
+a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    transition: .3s;
+}
+
+h1 {
+    display: block;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-block-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+p {
+    opacity: .7;
+}
+
+.banner {
+    background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('images/background.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 130px 0;
+    text-align: center;
+
+}
+
+.button-blue {
+    background-color: #1A48E3;
+    padding: 16px 48px;
+    border-radius: 4px;
+    display: inline-block;
+    text-decoration: none;
+    transition: .3s;
+}
+
+.card-white {
+    background-color: white;
+    box-shadow: 0 0 16px rgb(0 0 0 / 10%);
+    border-radius: 4px;
+    text-align: center;
+    padding: 24px;
+    flex-grow: 1;
+}
+
+div {
+    display: block;
+}
+
+.container {
+    width: 800px;
+    margin: auto;
+}
+
+.card img {
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+.button-blue:hover {
+    background-color: #0D1EC6;
+    color: white;
+}
+
+.footer {
+    background: #404042;
+    text-align: center;
+    padding: 24px 0;
+  }
+
+.footer p {
+    color: white;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 16px;
+    margin-bottom: 24px;
+  }
+
+  p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+@media (max-width: 800px) {
+    .cards {
+      grid-template-columns: 1fr;
+    }
+    .card-white {
+        width: auto;
+    }
+  }
+  
+  
+  
+  @media (min-width: 500px) {
+    .container {
+      width: 400px;
+    }
+  }
+  
+  
+  @media (min-width: 800px) {
+    .container {
+      width: 600px;
+    }
+  }
+  
+  @media (min-width: 1000px) {
+    .container {
+      width: 800px;
+    }
+  }
+  
